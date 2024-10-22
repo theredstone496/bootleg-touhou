@@ -30,6 +30,7 @@ public class PlayerController : MonoBehaviour
     public int maxBombs;
     int suicideTime;
     int bombs;
+    bool suicideEnabled;
     // Start is called before the first frame update
     public void Awake()
     {
@@ -128,7 +129,7 @@ public class PlayerController : MonoBehaviour
         m_Controls.Default.SuicideBomb.started +=
             ctx =>
             {
-                if (!ghosting) {RemoveLives(1);
+                if (!ghosting && suicideEnabled) {RemoveLives(1);
                 RemoveBomb();
                 suiciding = true;
                 Invoke("StopSuiciding", 1.5f);}
@@ -159,6 +160,13 @@ public class PlayerController : MonoBehaviour
         collider = this.GetComponent<CircleCollider2D>();
         bombs = maxBombs;
         lives = maxLives;
+        int suicideValue = PlayerPrefs.GetInt("suicide", 0);
+        if (suicideValue == 0) {
+            suicideEnabled = false;
+        }
+        else if (suicideValue == 1) {
+            suicideEnabled = true;
+        }
     }
 
     // Update is called once per frame
@@ -240,10 +248,15 @@ public class PlayerController : MonoBehaviour
     }
     public void Win() {
         if (lives >= 0) {
+            if (!suicideEnabled) {
+                GameObject.Find("SuicideText").GetComponent<TMP_Text>().enabled = true;
+            }
             GameObject.Find("WinText").GetComponent<TMP_Text>().enabled = true;
             GameObject.Find("BackText").GetComponent<TMP_Text>().enabled = true;
             GameObject.Find("BackButton").GetComponent<BoxCollider2D>().enabled = true;
             GameObject.Find("BackButton").GetComponent<SpriteRenderer>().enabled = true;
+            PlayerPrefs.SetInt("suicide", 1);
+            PlayerPrefs.Save();
         }
     }
 }
