@@ -7673,7 +7673,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemies: []
   active: 0
-  stageNumber: 3
+  stageNumber: 1
   enemyCount: 9
   timeToNext: 1160
 --- !u!1 &1804922776 stripped
