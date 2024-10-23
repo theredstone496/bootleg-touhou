@@ -21,30 +21,30 @@ public class PauseToggle : MonoBehaviour
                 Debug.Log("unpaused");
                 Time.timeScale = 1;
                 foreach(MonoBehaviour script in objectsToPause) {
-                    if (script != this && !script.GetType().IsSubclassOf(typeof(TMP_Text)) && !script.GetType().IsSubclassOf(typeof(FullScreenToggle)) && !script.GetType().IsSubclassOf(typeof(BackController))) {
+                    if (script != this && !script.GetType().IsSubclassOf(typeof(TMP_Text)) && !(script is FullScreenToggle) && !(script is BackController)) {
                         script.enabled = true;
                     }
                     
                 }
-                GameObject.Find("BackText").GetComponent<TMP_Text>().enabled = false;
+                GameObject.Find("PauseBackText").GetComponent<TMP_Text>().enabled = false;
                 GameObject.Find("PauseText").GetComponent<TMP_Text>().enabled = false;
-                GameObject.Find("BackButton").GetComponent<SpriteRenderer>().enabled = false;
+                GameObject.Find("PauseBackButton").GetComponent<SpriteRenderer>().enabled = false;
                 GameObject.Find("pausebackground").GetComponent<SpriteRenderer>().enabled = false;
-                GameObject.Find("BackButton").GetComponent<BoxCollider2D>().enabled = false;
+                GameObject.Find("PauseBackButton").GetComponent<BoxCollider2D>().enabled = false;
             }
             else if (Time.timeScale == 1) {
                 Debug.Log("paused");
                 Time.timeScale = 0;
                 foreach(MonoBehaviour script in objectsToPause) {
-                    if (script != this && !script.GetType().IsSubclassOf(typeof(TMP_Text)) && !script.GetType().IsSubclassOf(typeof(FullScreenToggle)) && !script.GetType().IsSubclassOf(typeof(BackController))) {
+                    if (script != this && !script.GetType().IsSubclassOf(typeof(TMP_Text)) && !(script is FullScreenToggle) && !(script is BackController)) {
                         script.enabled = false;
                     }
                 }
-                GameObject.Find("BackText").GetComponent<TMP_Text>().enabled = true;
+                GameObject.Find("PauseBackText").GetComponent<TMP_Text>().enabled = true;
                 GameObject.Find("PauseText").GetComponent<TMP_Text>().enabled = true;
-                GameObject.Find("BackButton").GetComponent<SpriteRenderer>().enabled = true;
+                GameObject.Find("PauseBackButton").GetComponent<SpriteRenderer>().enabled = true;
                 GameObject.Find("pausebackground").GetComponent<SpriteRenderer>().enabled = true;
-                GameObject.Find("BackButton").GetComponent<BoxCollider2D>().enabled = true;
+                GameObject.Find("PauseBackButton").GetComponent<BoxCollider2D>().enabled = true;
             }
         }
     }

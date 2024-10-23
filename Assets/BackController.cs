@@ -20,6 +20,7 @@ public class BackController : MonoBehaviour
     private void OnMouseEnter()
     {
         GameObject.Find("BackText").GetComponent<TMP_Text>().color = new Color32(200, 200, 200, 255);
+        GameObject.Find("PauseBackText").GetComponent<TMP_Text>().color = new Color32(200, 200, 200, 255);
     }
     private void OnMouseOver() 
     {
@@ -36,5 +37,6 @@ public class BackController : MonoBehaviour
     private void OnMouseExit()
     {
         GameObject.Find("BackText").GetComponent<TMP_Text>().color = new Color32(255, 255, 255, 255);
+        GameObject.Find("PauseBackText").GetComponent<TMP_Text>().color = new Color32(255, 255, 255, 255);
     }
 }
