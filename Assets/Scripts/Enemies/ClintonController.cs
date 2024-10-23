@@ -154,7 +154,7 @@ public class ClintonController : MonoBehaviour
                 Destroy(healthBar2);
             }
             if ((timeAlive >= despawnController.lifespan || healthController.hp <= 0) && !bombs) {
-                bool bombs = true; //i dont want greene to get infinite bombs
+                bombs = true; //i dont want obama to get infinite bombs
                 Destroy(healthBar3);
                 player.GetComponent<PlayerController>().RestoreBombs((int) Mathf.Ceil(player.GetComponent<PlayerController>().maxBombs / 2f));
             }

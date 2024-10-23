@@ -1063,8 +1063,12 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -4222775757653165359, guid: 703a28344a0dc864ab39df714f8ccefb, type: 3}
+      propertyPath: maxBombs
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: -4222775757653165359, guid: 703a28344a0dc864ab39df714f8ccefb, type: 3}
       propertyPath: maxLives
-      value: 50
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3176765846023755161, guid: 703a28344a0dc864ab39df714f8ccefb, type: 3}
       propertyPath: m_Name
@@ -1625,6 +1629,7 @@ GameObject:
   - component: {fileID: 1851681836}
   - component: {fileID: 1851681835}
   - component: {fileID: 1851681834}
+  - component: {fileID: 1851681838}
   m_Layer: 5
   m_Name: Square
   m_TagString: Untagged
@@ -1756,6 +1761,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1851681838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851681833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38179d5bfc2b30940bc1229287e4731a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1879583864
 GameObject:
   m_ObjectHideFlags: 0
