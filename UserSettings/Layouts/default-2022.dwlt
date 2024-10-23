@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 7.3333335
-    y: 50
-    width: 1265.3334
-    height: 662.6667
+    x: 0
+    y: 42.666668
+    width: 1280
+    height: 677.3334
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Git for Unity
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 0
+  m_Maximized: 1
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -44,8 +44,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1265.3334
-    height: 662.6667
+    width: 1280
+    height: 677.3334
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -69,7 +69,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1265.3334
+    width: 1280
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -90,8 +90,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 642.6667
-    width: 1265.3334
+    y: 657.3334
+    width: 1280
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -114,12 +114,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1265.3334
-    height: 612.6667
+    width: 1280
+    height: 627.3334
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 109
+  controlID: 67
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -140,8 +140,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 904.6667
-    height: 612.6667
+    width: 915.3333
+    height: 627.3334
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
@@ -166,8 +166,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 904.6667
-    height: 366.66666
+    width: 915.3333
+    height: 375.33334
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
@@ -190,8 +190,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 231.33333
-    height: 366.66666
+    width: 234
+    height: 375.33334
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
@@ -214,10 +214,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 231.33333
+    x: 234
     y: 0
-    width: 673.3334
-    height: 366.66666
+    width: 681.3333
+    height: 375.33334
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
@@ -242,9 +242,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 366.66666
-    width: 904.6667
-    height: 246.00003
+    y: 375.33334
+    width: 915.3333
+    height: 252.00003
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 16}
@@ -268,10 +268,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 904.6667
+    x: 915.3333
     y: 0
-    width: 360.6667
-    height: 612.6667
+    width: 364.6667
+    height: 627.3334
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 12}
@@ -300,10 +300,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 912
-    y: 80
-    width: 359.6667
-    height: 591.6667
+    x: 915.3334
+    y: 72.66667
+    width: 363.6667
+    height: 606.3334
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -314,13 +314,13 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  progressMessageClearTime: 4373.8312634
+  progressMessageClearTime: -1
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 1
+  repositoryProgressHasUpdate: 0
   appManagerProgressHasUpdate: 0
   changeTab: 3
   activeTab: 3
@@ -505,46 +505,8 @@ MonoBehaviour:
         keys: []
         values: []
       folders:
-        keys:
-        - UserSettings
-        - UserSettings\Layouts
-        values:
-        - path: UserSettings
-          label: UserSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings\Layouts
-          label: Layouts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
+        keys: []
+        values: []
       checkedFileNodes:
         keys: []
         values: []
@@ -573,60 +535,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: UserSettings
-        label: UserSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Layouts
-        label: Layouts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Layouts\default-2022.dwlt
-        label: default-2022.dwlt
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\Layouts\default-2022.dwlt
-          fullPath: C:\Users\User\bootleg touhou\UserSettings\Layouts\default-2022.dwlt
-          projectPath: UserSettings\Layouts\default-2022.dwlt
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
       selectedNode:
         path: 
         label: 
@@ -646,22 +554,16 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-    gitStatusEntries:
-    - path: UserSettings\Layouts\default-2022.dwlt
-      fullPath: C:\Users\User\bootleg touhou\UserSettings\Layouts\default-2022.dwlt
-      projectPath: UserSettings\Layouts\default-2022.dwlt
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    changedFilesText: 1 changed file
+    gitStatusEntries: []
+    changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2024-10-23T00:51:47.844+08:00
+      updatedTimeString: 2024-10-23T19:23:28.871+08:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2024-10-22T23:56:02.009+08:00
+      updatedTimeString: 2024-10-23T19:24:01.973+08:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2024-10-22T23:39:35.859+08:00
+      updatedTimeString: 2024-10-23T19:19:08.649+08:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -12788,959 +12690,70 @@ MonoBehaviour:
         gitFileStatus: 0
         lockedAt: 1 Jan 0001, 08:00
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2024-10-22T19:45:19.805+08:00
+      updatedTimeString: 2024-10-23T17:09:19.015+08:00
       cacheType: 1
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2024-10-23T18:32:29.280+08:00
       cacheType: 7
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2024-10-22T19:51:59.998+08:00
+      updatedTimeString: 2024-10-23T18:32:29.816+08:00
       cacheType: 6
     lockedFiles: []
     gitStatusEntries:
-    - path: Exported\bootleg touhou.exe
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou.exe
-      projectPath: Exported\bootleg touhou.exe
+    - path: Assets\BackController.cs
+      fullPath: C:\Users\User\bootleg touhou\Assets\BackController.cs
+      projectPath: Assets\BackController.cs
       originalPath: 
       indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\app.info
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\app.info
-      projectPath: Exported\bootleg touhou_Data\app.info
+      workTreeStatus: 3
+    - path: Assets\FullScreenToggle.cs
+      fullPath: C:\Users\User\bootleg touhou\Assets\FullScreenToggle.cs
+      projectPath: Assets\FullScreenToggle.cs
       originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\boot.config
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\boot.config
-      projectPath: Exported\bootleg touhou_Data\boot.config
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\globalgamemanagers
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\globalgamemanagers
-      projectPath: Exported\bootleg touhou_Data\globalgamemanagers
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\globalgamemanagers.assets
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\globalgamemanagers.assets
-      projectPath: Exported\bootleg touhou_Data\globalgamemanagers.assets
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\globalgamemanagers.assets.resS
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\globalgamemanagers.assets.resS
-      projectPath: Exported\bootleg touhou_Data\globalgamemanagers.assets.resS
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\level0
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\level0
-      projectPath: Exported\bootleg touhou_Data\level0
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\level1
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\level1
-      projectPath: Exported\bootleg touhou_Data\level1
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\level2
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\level2
-      projectPath: Exported\bootleg touhou_Data\level2
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\Assembly-CSharp.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\Assembly-CSharp.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\Assembly-CSharp.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\Mono.Security.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\Mono.Security.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\Mono.Security.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\mscorlib.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\mscorlib.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\mscorlib.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\netstandard.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\netstandard.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\netstandard.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\System.ComponentModel.Composition.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\System.ComponentModel.Composition.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\System.ComponentModel.Composition.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\System.Configuration.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\System.Configuration.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\System.Configuration.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\System.Core.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\System.Core.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\System.Core.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\System.Data.DataSetExtensions.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\System.Data.DataSetExtensions.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\System.Data.DataSetExtensions.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\System.Data.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\System.Data.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\System.Data.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\System.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\System.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\System.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\System.Drawing.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\System.Drawing.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\System.Drawing.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\System.EnterpriseServices.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\System.EnterpriseServices.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\System.EnterpriseServices.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\System.IO.Compression.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\System.IO.Compression.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\System.IO.Compression.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\System.IO.Compression.FileSystem.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\System.IO.Compression.FileSystem.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\System.IO.Compression.FileSystem.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\System.Net.Http.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\System.Net.Http.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\System.Net.Http.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\System.Numerics.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\System.Numerics.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\System.Numerics.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\System.Runtime.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\System.Runtime.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\System.Runtime.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\System.Runtime.Serialization.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\System.Runtime.Serialization.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\System.Runtime.Serialization.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\System.Security.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\System.Security.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\System.Security.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\System.ServiceModel.Internals.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\System.ServiceModel.Internals.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\System.ServiceModel.Internals.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\System.Transactions.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\System.Transactions.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\System.Transactions.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\System.Xml.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\System.Xml.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\System.Xml.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\System.Xml.Linq.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\System.Xml.Linq.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\System.Xml.Linq.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\Unity.2D.Animation.Runtime.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\Unity.2D.Animation.Runtime.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\Unity.2D.Animation.Runtime.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\Unity.2D.Common.Runtime.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\Unity.2D.Common.Runtime.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\Unity.2D.Common.Runtime.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\Unity.2D.IK.Runtime.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\Unity.2D.IK.Runtime.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\Unity.2D.IK.Runtime.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\Unity.2D.PixelPerfect.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\Unity.2D.PixelPerfect.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\Unity.2D.PixelPerfect.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\Unity.2D.SpriteShape.Runtime.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\Unity.2D.SpriteShape.Runtime.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\Unity.2D.SpriteShape.Runtime.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\Unity.2D.Tilemap.Extras.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\Unity.2D.Tilemap.Extras.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\Unity.2D.Tilemap.Extras.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\Unity.AI.Navigation.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\Unity.AI.Navigation.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\Unity.AI.Navigation.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\Unity.Burst.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\Unity.Burst.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\Unity.Burst.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\Unity.Burst.Unsafe.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\Unity.Burst.Unsafe.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\Unity.Burst.Unsafe.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\Unity.Collections.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\Unity.Collections.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\Unity.Collections.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\Unity.Collections.LowLevel.ILSupport.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\Unity.Collections.LowLevel.ILSupport.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\Unity.Collections.LowLevel.ILSupport.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\Unity.InputSystem.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\Unity.InputSystem.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\Unity.InputSystem.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\Unity.InputSystem.ForUI.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\Unity.InputSystem.ForUI.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\Unity.InputSystem.ForUI.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\Unity.InternalAPIEngineBridge.001.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\Unity.InternalAPIEngineBridge.001.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\Unity.InternalAPIEngineBridge.001.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\Unity.Mathematics.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\Unity.Mathematics.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\Unity.Mathematics.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\Unity.TextMeshPro.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\Unity.TextMeshPro.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\Unity.TextMeshPro.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\Unity.Timeline.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\Unity.Timeline.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\Unity.Timeline.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\Unity.VisualScripting.Antlr3.Runtime.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\Unity.VisualScripting.Antlr3.Runtime.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\Unity.VisualScripting.Antlr3.Runtime.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\Unity.VisualScripting.Core.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\Unity.VisualScripting.Core.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\Unity.VisualScripting.Core.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\Unity.VisualScripting.Flow.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\Unity.VisualScripting.Flow.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\Unity.VisualScripting.Flow.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\Unity.VisualScripting.State.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\Unity.VisualScripting.State.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\Unity.VisualScripting.State.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.AccessibilityModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.AccessibilityModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.AccessibilityModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.AIModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.AIModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.AIModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.AndroidJNIModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.AndroidJNIModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.AndroidJNIModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.AnimationModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.AnimationModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.AnimationModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.ARModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.ARModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.ARModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.AssetBundleModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.AssetBundleModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.AssetBundleModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.AudioModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.AudioModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.AudioModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.ClothModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.ClothModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.ClothModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.ClusterInputModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.ClusterInputModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.ClusterInputModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.ClusterRendererModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.ClusterRendererModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.ClusterRendererModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.ContentLoadModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.ContentLoadModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.ContentLoadModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.CoreModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.CoreModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.CoreModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.CrashReportingModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.CrashReportingModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.CrashReportingModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.DirectorModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.DirectorModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.DirectorModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.DSPGraphModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.DSPGraphModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.DSPGraphModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.GameCenterModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.GameCenterModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.GameCenterModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.GIModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.GIModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.GIModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.GridModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.GridModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.GridModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.HotReloadModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.HotReloadModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.HotReloadModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.ImageConversionModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.ImageConversionModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.ImageConversionModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.IMGUIModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.IMGUIModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.IMGUIModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.InputLegacyModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.InputLegacyModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.InputLegacyModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.InputModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.InputModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.InputModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.JSONSerializeModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.JSONSerializeModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.JSONSerializeModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.LocalizationModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.LocalizationModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.LocalizationModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.NVIDIAModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.NVIDIAModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.NVIDIAModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.ParticleSystemModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.ParticleSystemModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.ParticleSystemModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.PerformanceReportingModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.PerformanceReportingModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.PerformanceReportingModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.Physics2DModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.Physics2DModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.Physics2DModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.PhysicsModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.PhysicsModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.PhysicsModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.ProfilerModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.ProfilerModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.ProfilerModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.PropertiesModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.PropertiesModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.PropertiesModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.ScreenCaptureModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.ScreenCaptureModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.ScreenCaptureModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.SharedInternalsModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.SharedInternalsModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.SharedInternalsModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.SpriteMaskModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.SpriteMaskModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.SpriteMaskModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.SpriteShapeModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.SpriteShapeModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.SpriteShapeModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.StreamingModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.StreamingModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.StreamingModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.SubstanceModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.SubstanceModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.SubstanceModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.SubsystemsModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.SubsystemsModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.SubsystemsModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.TerrainModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.TerrainModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.TerrainModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.TextCoreFontEngineModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.TextCoreFontEngineModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.TextCoreFontEngineModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.TextCoreTextEngineModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.TextCoreTextEngineModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.TextCoreTextEngineModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.TextRenderingModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.TextRenderingModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.TextRenderingModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.TilemapModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.TilemapModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.TilemapModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.TLSModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.TLSModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.TLSModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.UI.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.UI.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.UI.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.UIElementsModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.UIElementsModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.UIElementsModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.UIModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.UIModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.UIModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.UmbraModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.UmbraModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.UmbraModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.UnityAnalyticsCommonModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.UnityAnalyticsCommonModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.UnityAnalyticsCommonModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.UnityConnectModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.UnityConnectModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.UnityConnectModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.UnityCurlModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.UnityCurlModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.UnityCurlModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.UnityTestProtocolModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.UnityTestProtocolModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.UnityTestProtocolModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.UnityWebRequestModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.UnityWebRequestModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.UnityWebRequestModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\FullScreenToggle.cs.meta
+      fullPath: C:\Users\User\bootleg touhou\Assets\FullScreenToggle.cs.meta
+      projectPath: Assets\FullScreenToggle.cs.meta
       originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.VehiclesModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.VehiclesModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.VehiclesModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.VFXModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.VFXModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.VFXModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.VideoModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.VideoModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.VideoModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.VirtualTexturingModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.VirtualTexturingModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.VirtualTexturingModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.VRModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.VRModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.VRModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.WindModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.WindModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.WindModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Managed\UnityEngine.XRModule.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Managed\UnityEngine.XRModule.dll
-      projectPath: Exported\bootleg touhou_Data\Managed\UnityEngine.XRModule.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Plugins\x86_64\lib_burst_generated.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Plugins\x86_64\lib_burst_generated.dll
-      projectPath: Exported\bootleg touhou_Data\Plugins\x86_64\lib_burst_generated.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\resources.assets
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\resources.assets
-      projectPath: Exported\bootleg touhou_Data\resources.assets
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\resources.assets.resS
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\resources.assets.resS
-      projectPath: Exported\bootleg touhou_Data\resources.assets.resS
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Resources\unity default resources
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Resources\unity
-        default resources
-      projectPath: Exported\bootleg touhou_Data\Resources\unity default resources
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\Resources\unity_builtin_extra
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\Resources\unity_builtin_extra
-      projectPath: Exported\bootleg touhou_Data\Resources\unity_builtin_extra
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\RuntimeInitializeOnLoads.json
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\RuntimeInitializeOnLoads.json
-      projectPath: Exported\bootleg touhou_Data\RuntimeInitializeOnLoads.json
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\ScriptingAssemblies.json
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\ScriptingAssemblies.json
-      projectPath: Exported\bootleg touhou_Data\ScriptingAssemblies.json
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\sharedassets0.assets
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\sharedassets0.assets
-      projectPath: Exported\bootleg touhou_Data\sharedassets0.assets
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\sharedassets0.assets.resS
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\sharedassets0.assets.resS
-      projectPath: Exported\bootleg touhou_Data\sharedassets0.assets.resS
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\sharedassets1.assets
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\sharedassets1.assets
-      projectPath: Exported\bootleg touhou_Data\sharedassets1.assets
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\sharedassets1.assets.resS
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\sharedassets1.assets.resS
-      projectPath: Exported\bootleg touhou_Data\sharedassets1.assets.resS
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\sharedassets2.assets
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\sharedassets2.assets
-      projectPath: Exported\bootleg touhou_Data\sharedassets2.assets
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\PauseToggle.cs
+      fullPath: C:\Users\User\bootleg touhou\Assets\PauseToggle.cs
+      projectPath: Assets\PauseToggle.cs
       originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\bootleg touhou_Data\sharedassets2.assets.resS
-      fullPath: C:\Users\User\bootleg touhou\Exported\bootleg touhou_Data\sharedassets2.assets.resS
-      projectPath: Exported\bootleg touhou_Data\sharedassets2.assets.resS
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll
-      projectPath: Exported\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\MonoBleedingEdge\EmbedRuntime\MonoPosixHelper.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\MonoBleedingEdge\EmbedRuntime\MonoPosixHelper.dll
-      projectPath: Exported\MonoBleedingEdge\EmbedRuntime\MonoPosixHelper.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\MonoBleedingEdge\etc\mono\2.0\Browsers\Compat.browser
-      fullPath: C:\Users\User\bootleg touhou\Exported\MonoBleedingEdge\etc\mono\2.0\Browsers\Compat.browser
-      projectPath: Exported\MonoBleedingEdge\etc\mono\2.0\Browsers\Compat.browser
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\MonoBleedingEdge\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
-      fullPath: C:\Users\User\bootleg touhou\Exported\MonoBleedingEdge\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
-      projectPath: Exported\MonoBleedingEdge\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\MonoBleedingEdge\etc\mono\2.0\machine.config
-      fullPath: C:\Users\User\bootleg touhou\Exported\MonoBleedingEdge\etc\mono\2.0\machine.config
-      projectPath: Exported\MonoBleedingEdge\etc\mono\2.0\machine.config
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\MonoBleedingEdge\etc\mono\2.0\settings.map
-      fullPath: C:\Users\User\bootleg touhou\Exported\MonoBleedingEdge\etc\mono\2.0\settings.map
-      projectPath: Exported\MonoBleedingEdge\etc\mono\2.0\settings.map
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\MonoBleedingEdge\etc\mono\2.0\web.config
-      fullPath: C:\Users\User\bootleg touhou\Exported\MonoBleedingEdge\etc\mono\2.0\web.config
-      projectPath: Exported\MonoBleedingEdge\etc\mono\2.0\web.config
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\MonoBleedingEdge\etc\mono\4.0\Browsers\Compat.browser
-      fullPath: C:\Users\User\bootleg touhou\Exported\MonoBleedingEdge\etc\mono\4.0\Browsers\Compat.browser
-      projectPath: Exported\MonoBleedingEdge\etc\mono\4.0\Browsers\Compat.browser
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\MonoBleedingEdge\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx
-      fullPath: C:\Users\User\bootleg touhou\Exported\MonoBleedingEdge\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx
-      projectPath: Exported\MonoBleedingEdge\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\PauseToggle.cs.meta
+      fullPath: C:\Users\User\bootleg touhou\Assets\PauseToggle.cs.meta
+      projectPath: Assets\PauseToggle.cs.meta
       originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\MonoBleedingEdge\etc\mono\4.0\machine.config
-      fullPath: C:\Users\User\bootleg touhou\Exported\MonoBleedingEdge\etc\mono\4.0\machine.config
-      projectPath: Exported\MonoBleedingEdge\etc\mono\4.0\machine.config
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\MonoBleedingEdge\etc\mono\4.0\settings.map
-      fullPath: C:\Users\User\bootleg touhou\Exported\MonoBleedingEdge\etc\mono\4.0\settings.map
-      projectPath: Exported\MonoBleedingEdge\etc\mono\4.0\settings.map
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\MonoBleedingEdge\etc\mono\4.0\web.config
-      fullPath: C:\Users\User\bootleg touhou\Exported\MonoBleedingEdge\etc\mono\4.0\web.config
-      projectPath: Exported\MonoBleedingEdge\etc\mono\4.0\web.config
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\MonoBleedingEdge\etc\mono\4.5\Browsers\Compat.browser
-      fullPath: C:\Users\User\bootleg touhou\Exported\MonoBleedingEdge\etc\mono\4.5\Browsers\Compat.browser
-      projectPath: Exported\MonoBleedingEdge\etc\mono\4.5\Browsers\Compat.browser
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\MonoBleedingEdge\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx
-      fullPath: C:\Users\User\bootleg touhou\Exported\MonoBleedingEdge\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx
-      projectPath: Exported\MonoBleedingEdge\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\MonoBleedingEdge\etc\mono\4.5\machine.config
-      fullPath: C:\Users\User\bootleg touhou\Exported\MonoBleedingEdge\etc\mono\4.5\machine.config
-      projectPath: Exported\MonoBleedingEdge\etc\mono\4.5\machine.config
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\MonoBleedingEdge\etc\mono\4.5\settings.map
-      fullPath: C:\Users\User\bootleg touhou\Exported\MonoBleedingEdge\etc\mono\4.5\settings.map
-      projectPath: Exported\MonoBleedingEdge\etc\mono\4.5\settings.map
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\MonoBleedingEdge\etc\mono\4.5\web.config
-      fullPath: C:\Users\User\bootleg touhou\Exported\MonoBleedingEdge\etc\mono\4.5\web.config
-      projectPath: Exported\MonoBleedingEdge\etc\mono\4.5\web.config
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\MonoBleedingEdge\etc\mono\browscap.ini
-      fullPath: C:\Users\User\bootleg touhou\Exported\MonoBleedingEdge\etc\mono\browscap.ini
-      projectPath: Exported\MonoBleedingEdge\etc\mono\browscap.ini
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\MonoBleedingEdge\etc\mono\config
-      fullPath: C:\Users\User\bootleg touhou\Exported\MonoBleedingEdge\etc\mono\config
-      projectPath: Exported\MonoBleedingEdge\etc\mono\config
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\User\bootleg touhou\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
       originalPath: 
       indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\MonoBleedingEdge\etc\mono\mconfig\config.xml
-      fullPath: C:\Users\User\bootleg touhou\Exported\MonoBleedingEdge\etc\mono\mconfig\config.xml
-      projectPath: Exported\MonoBleedingEdge\etc\mono\mconfig\config.xml
+      workTreeStatus: 3
+    - path: Assets\Scenes\StartScreen.unity
+      fullPath: C:\Users\User\bootleg touhou\Assets\Scenes\StartScreen.unity
+      projectPath: Assets\Scenes\StartScreen.unity
       originalPath: 
       indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\UnityCrashHandler64.exe
-      fullPath: C:\Users\User\bootleg touhou\Exported\UnityCrashHandler64.exe
-      projectPath: Exported\UnityCrashHandler64.exe
+      workTreeStatus: 3
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: C:\Users\User\bootleg touhou\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
       originalPath: 
       indexStatus: 0
-      workTreeStatus: 5
-    - path: Exported\UnityPlayer.dll
-      fullPath: C:\Users\User\bootleg touhou\Exported\UnityPlayer.dll
-      projectPath: Exported\UnityPlayer.dll
+      workTreeStatus: 3
+    - path: UserSettings\Layouts\default-2022.dwlt
+      fullPath: C:\Users\User\bootleg touhou\UserSettings\Layouts\default-2022.dwlt
+      projectPath: UserSettings\Layouts\default-2022.dwlt
       originalPath: 
       indexStatus: 0
-      workTreeStatus: 5
+      workTreeStatus: 3
     currentUsername: 
     unlockFileMenuContent:
       m_Text: Release Lock
@@ -13756,7 +12769,7 @@ MonoBehaviour:
   currentRemoteUrl: https://github.com/theredstone496/bootleg-touhou
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 1
+  hasItemsToCommit: 0
   isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: master
@@ -13767,13 +12780,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2024-10-23T00:51:47.844+08:00
+    updatedTimeString: 2024-10-23T19:23:28.871+08:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2024-10-22T23:56:02.024+08:00
+    updatedTimeString: 2024-10-23T19:24:01.986+08:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2024-10-22T23:56:02.009+08:00
+    updatedTimeString: 2024-10-23T19:24:01.973+08:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -13791,7 +12804,7 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0.99966353
+  repositoryProgressValue: 0
   repositoryProgressMessage: 
   appManagerProgressValue: 1
   appManagerProgressMessage: 
@@ -13816,10 +12829,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 238.66667
-    y: 80
-    width: 671.3334
-    height: 345.66666
+    x: 234
+    y: 72.66667
+    width: 679.3333
+    height: 354.33334
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -13836,7 +12849,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1007.00006, y: 487}
+  m_TargetSize: {x: 1019, y: 500}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -13851,10 +12864,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -335.6667
-    m_HBaseRangeMax: 335.6667
-    m_VBaseRangeMin: -162.33334
-    m_VBaseRangeMax: 162.33334
+    m_HBaseRangeMin: -339.6667
+    m_HBaseRangeMax: 339.6667
+    m_VBaseRangeMin: -166.66667
+    m_VBaseRangeMax: 166.66667
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -13863,7 +12876,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -13872,23 +12885,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 671.3334
-      height: 324.66666
+      width: 679.3333
+      height: 333.33334
     m_Scale: {x: 0.9999999, y: 0.9999999}
-    m_Translation: {x: 335.6667, y: 162.33333}
+    m_Translation: {x: 339.66666, y: 166.66667}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -335.66672
-      y: -162.33334
-      width: 671.33344
-      height: 324.6667
+      x: -339.6667
+      y: -166.66669
+      width: 679.3334
+      height: 333.33337
     m_MinimalGUI: 1
   m_defaultScale: 0.9999999
-  m_LastWindowPixelSize: {x: 1007.00006, y: 518.5}
+  m_LastWindowPixelSize: {x: 1019, y: 531.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 0
   m_LowResolutionForAspectRatios: 00000000000000000000
@@ -13914,10 +12927,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 7.3333335
-    y: 80
-    width: 230.33333
-    height: 345.66666
+    x: 0
+    y: 72.66667
+    width: 233
+    height: 354.33334
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -13933,7 +12946,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 18fbffff
+      m_ExpandedIDs: e038fbff1e39fbff183cfbff7e3cfbff9c3cfbffd83ffbff6240fbff6a41fbffae41fbffa08efbff4698fbfffc9cfbff3a9dfbff32a0fbff98a0fbffb6a0fbffd8a2fbffeca3fbffe6a6fbffd4e3feff7ceffeff5055ffff2688ffff5e8effffa28effff7091ffffce91ffffe491ffff5697ffff9a97ffff689affffc69affffdc9afffffe9fffff42a0ffff2ca3ffff8aa3ffffa0a3fffff2a5ffffc6adffff04aeffffd0b0ffff2eb1ffff42b1ffff7ab7ffffb8b7ffff84baffffe2bafffff6baffff2ac0ffff68c0ffff34c3ffff92c3ffffa6c3ffffdec8ffff1cc9ffffe8cbffff46ccffff5accffff66d1ffffa4d1ffff70d4ffffced4ffffe2d4ffff42daffff80daffff68ddffffc6ddffffdaddffff18fbffff14a300005abd000098cb0000e2d00000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -13977,10 +12990,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 238.66667
-    y: 80
-    width: 671.3334
-    height: 345.66666
+    x: 234
+    y: 72.66667
+    width: 679.3333
+    height: 354.33334
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -14294,7 +13307,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -209.33337, y: -245.33333}
+      snapOffset: {x: -209.33337, y: -245.33334}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: AINavigationOverlay
@@ -14339,9 +13352,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.25048643, y: -3.169207, z: 0.028358456}
+    m_Target: {x: -3.052264, y: -3.6228194, z: 0.047292884}
     speed: 2
-    m_Value: {x: 0.24049272, y: -3.2000968, z: 0.03270116}
+    m_Value: {x: -2.3125296, y: -3.4931104, z: 0.043433122}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -14391,9 +13404,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10.084777
+    m_Target: 8.191415
     speed: 2
-    m_Value: 9.650504
+    m_Value: 8.577397
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -14438,10 +13451,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 7.3333335
-    y: 446.6667
-    width: 903.6667
-    height: 225.00003
+    x: 0
+    y: 448
+    width: 914.3333
+    height: 231.00003
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -14463,7 +13476,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Player
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -14471,16 +13484,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 68
   m_LastFolders:
-  - Assets/Scripts/Player
+  - Assets/Scenes
   m_LastFoldersGridSize: 68
   m_LastProjectPath: C:\Users\User\bootleg touhou
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 354.99997}
-    m_SelectedIDs: 26730000
-    m_LastClickedID: 29478
-    m_ExpandedIDs: 00000000dc720000de720000e0720000e2720000e472000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 180}
+    m_SelectedIDs: 00730000
+    m_LastClickedID: 29440
+    m_ExpandedIDs: 00000000d8720000da720000dc720000de720000e072000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -14508,7 +13521,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000dc720000de720000e0720000e2720000e4720000
+    m_ExpandedIDs: 00000000d8720000da720000dc720000de720000e0720000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -14584,10 +13597,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 7.3333335
-    y: 446.6667
-    width: 903.6667
-    height: 225.00003
+    x: 0
+    y: 448
+    width: 914.3333
+    height: 231.00003
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -14618,10 +13631,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 912
-    y: 80
-    width: 359.6667
-    height: 591.6667
+    x: 915.3334
+    y: 72.66667
+    width: 363.6667
+    height: 606.3334
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
