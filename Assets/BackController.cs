@@ -26,7 +26,11 @@ public class BackController : MonoBehaviour
         if (Input.GetMouseButton(0)) 
         {
             Debug.Log("BACK HOME");
-            SceneManager.LoadScene (sceneName:"StartScreen");
+            if (Time.timeScale == 0) {
+                Debug.Log("unpaused");
+                Time.timeScale = 1;
+            }
+            SceneManager.LoadScene(sceneName:"StartScreen");
         }
     }
     private void OnMouseExit()
