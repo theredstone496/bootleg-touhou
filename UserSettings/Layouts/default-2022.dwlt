@@ -45,7 +45,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1280
-    height: 677.3334
+    height: 677.3333
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -90,7 +90,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 657.3334
+    y: 657.3333
     width: 1280
     height: 20
   m_MinSize: {x: 0, y: 0}
@@ -115,11 +115,11 @@ MonoBehaviour:
     x: 0
     y: 30
     width: 1280
-    height: 627.3334
+    height: 627.3333
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 67
+  controlID: 110
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -141,11 +141,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 915.3333
-    height: 627.3334
+    height: 627.3333
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 68
+  controlID: 56
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -192,8 +192,8 @@ MonoBehaviour:
     y: 0
     width: 234
     height: 375.33334
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -218,8 +218,8 @@ MonoBehaviour:
     y: 0
     width: 681.3333
     height: 375.33334
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -236,7 +236,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -244,15 +244,15 @@ MonoBehaviour:
     x: 0
     y: 375.33334
     width: 915.3333
-    height: 252.00003
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 16}
+    height: 251.99997
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -271,7 +271,7 @@ MonoBehaviour:
     x: 915.3333
     y: 0
     width: 364.6667
-    height: 627.3334
+    height: 627.3333
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 12}
@@ -303,7 +303,7 @@ MonoBehaviour:
     x: 915.3334
     y: 72.66667
     width: 363.6667
-    height: 606.3334
+    height: 606.3333
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -557,13 +557,13 @@ MonoBehaviour:
     gitStatusEntries: []
     changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2024-10-23T19:23:28.871+08:00
+      updatedTimeString: 2024-10-24T00:26:13.960+08:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2024-10-23T19:24:01.973+08:00
+      updatedTimeString: 2024-10-24T00:26:25.673+08:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2024-10-23T19:19:08.649+08:00
+      updatedTimeString: 2024-10-24T00:22:02.325+08:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -12690,58 +12690,34 @@ MonoBehaviour:
         gitFileStatus: 0
         lockedAt: 1 Jan 0001, 08:00
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2024-10-23T17:09:19.015+08:00
+      updatedTimeString: 2024-10-24T00:18:50.435+08:00
       cacheType: 1
     lastLocksChangedEvent:
-      updatedTimeString: 2024-10-23T18:32:29.280+08:00
+      updatedTimeString: 2024-10-24T00:22:02.325+08:00
       cacheType: 7
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2024-10-23T18:32:29.816+08:00
+      updatedTimeString: 2024-10-24T00:22:25.774+08:00
       cacheType: 6
     lockedFiles: []
     gitStatusEntries:
-    - path: Assets\BackController.cs
-      fullPath: C:\Users\User\bootleg touhou\Assets\BackController.cs
-      projectPath: Assets\BackController.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\FullScreenToggle.cs
-      fullPath: C:\Users\User\bootleg touhou\Assets\FullScreenToggle.cs
-      projectPath: Assets\FullScreenToggle.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\FullScreenToggle.cs.meta
-      fullPath: C:\Users\User\bootleg touhou\Assets\FullScreenToggle.cs.meta
-      projectPath: Assets\FullScreenToggle.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\PauseToggle.cs
-      fullPath: C:\Users\User\bootleg touhou\Assets\PauseToggle.cs
-      projectPath: Assets\PauseToggle.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\PauseToggle.cs.meta
-      fullPath: C:\Users\User\bootleg touhou\Assets\PauseToggle.cs.meta
-      projectPath: Assets\PauseToggle.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
     - path: Assets\Scenes\SampleScene.unity
       fullPath: C:\Users\User\bootleg touhou\Assets\Scenes\SampleScene.unity
       projectPath: Assets\Scenes\SampleScene.unity
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Assets\Scenes\StartScreen.unity
-      fullPath: C:\Users\User\bootleg touhou\Assets\Scenes\StartScreen.unity
-      projectPath: Assets\Scenes\StartScreen.unity
+    - path: Assets\SetTargetFrameRate.cs
+      fullPath: C:\Users\User\bootleg touhou\Assets\SetTargetFrameRate.cs
+      projectPath: Assets\SetTargetFrameRate.cs
       originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\SetTargetFrameRate.cs.meta
+      fullPath: C:\Users\User\bootleg touhou\Assets\SetTargetFrameRate.cs.meta
+      projectPath: Assets\SetTargetFrameRate.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
     - path: ProjectSettings\ProjectSettings.asset
       fullPath: C:\Users\User\bootleg touhou\ProjectSettings\ProjectSettings.asset
       projectPath: ProjectSettings\ProjectSettings.asset
@@ -12780,13 +12756,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2024-10-23T19:23:28.871+08:00
+    updatedTimeString: 2024-10-24T00:26:13.960+08:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2024-10-23T19:24:01.986+08:00
+    updatedTimeString: 2024-10-24T00:26:25.688+08:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2024-10-23T19:24:01.973+08:00
+    updatedTimeString: 2024-10-24T00:26:25.673+08:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -12946,7 +12922,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: e038fbff1e39fbff183cfbff7e3cfbff9c3cfbffd83ffbff6240fbff6a41fbffae41fbffa08efbff4698fbfffc9cfbff3a9dfbff32a0fbff98a0fbffb6a0fbffd8a2fbffeca3fbffe6a6fbffd4e3feff7ceffeff5055ffff2688ffff5e8effffa28effff7091ffffce91ffffe491ffff5697ffff9a97ffff689affffc69affffdc9afffffe9fffff42a0ffff2ca3ffff8aa3ffffa0a3fffff2a5ffffc6adffff04aeffffd0b0ffff2eb1ffff42b1ffff7ab7ffffb8b7ffff84baffffe2bafffff6baffff2ac0ffff68c0ffff34c3ffff92c3ffffa6c3ffffdec8ffff1cc9ffffe8cbffff46ccffff5accffff66d1ffffa4d1ffff70d4ffffced4ffffe2d4ffff42daffff80daffff68ddffffc6ddffffdaddffff18fbffff14a300005abd000098cb0000e2d00000
+      m_ExpandedIDs: 1ed0ffff5cd0ffff3ad3ffff9cd3ffffb6d3ffffa8daffffe6daffffe0ddffff42deffff5cdeffff18fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -13352,9 +13328,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.052264, y: -3.6228194, z: 0.047292884}
+    m_Target: {x: 2.300557, y: -1.2079217, z: -0.014663806}
     speed: 2
-    m_Value: {x: -2.3125296, y: -3.4931104, z: 0.043433122}
+    m_Value: {x: 2.4002388, y: -1.5826747, z: -0.008468387}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -13404,9 +13380,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 8.191415
+    m_Target: 14.387124
     speed: 2
-    m_Value: 8.577397
+    m_Value: 13.767583
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -13454,7 +13430,7 @@ MonoBehaviour:
     x: 0
     y: 448
     width: 914.3333
-    height: 231.00003
+    height: 230.99997
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -13490,10 +13466,10 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 180}
-    m_SelectedIDs: 00730000
-    m_LastClickedID: 29440
-    m_ExpandedIDs: 00000000d8720000da720000dc720000de720000e072000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 29.00003}
+    m_SelectedIDs: 36730000
+    m_LastClickedID: 29494
+    m_ExpandedIDs: 000000000e7300001073000012730000147300001673000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -13521,7 +13497,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d8720000da720000dc720000de720000e0720000
+    m_ExpandedIDs: 000000000e73000010730000127300001473000016730000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -13546,9 +13522,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 5c690000
+    m_LastClickedInstanceID: 26972
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000008680000d867000092bd000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -13600,7 +13576,7 @@ MonoBehaviour:
     x: 0
     y: 448
     width: 914.3333
-    height: 231.00003
+    height: 230.99997
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -13634,7 +13610,7 @@ MonoBehaviour:
     x: 915.3334
     y: 72.66667
     width: 363.6667
-    height: 606.3334
+    height: 606.3333
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0

@@ -37,8 +37,8 @@ public class SpawnInController : MonoBehaviour
             if (startxpos != 0 && startypos != 0) {
                 transform.position = new Vector3(xpos, ypos, 0);
             }
-            xpos += xspeed * Time.deltaTime;
-            ypos += yspeed * Time.deltaTime;
+            xpos += xspeed * 1f / 60f;
+            ypos += yspeed * 1f / 60f;
             spriteRenderer.color = new Color(1.0f,1.0f,1.0f,alpha);
             alpha = startAlpha + (1.0f - startAlpha) / time * timeProg;
             if (time == 0) {alpha = 1;}

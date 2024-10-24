@@ -27,14 +27,13 @@ public class OsamaController : MonoBehaviour
     {
         exiting = false;
         moveTime = 0;
-        shootTime = 0;
+        shootTime = Random.Range(90,211);
         imageAlpha = 0;
         hp = 15;
         /*HealthController healthController = gameObject.GetComponent<HealthController>();
         healthController.hp = hp;*/
         yspeed = 0;
         directionOffset = Random.Range(50,71);
-        shootOffset = Random.Range(50,171);
         direction = Mathf.FloorToInt(Random.Range(0,2));
         if (direction == 0) {
             xspeed = 3f;
@@ -74,10 +73,10 @@ public class OsamaController : MonoBehaviour
     {
         if (created) {
             if (spawnInController.moving) {
-                transform.position += new Vector3(xspeed,yspeed, 0) * Time.deltaTime;
+                transform.position += new Vector3(xspeed,yspeed, 0) * 1f / 60f;
             }
             moveTime++;
-            shootTime++;
+            shootTime--;
         }
         else {
             if (spawnInController.spawned) {
@@ -106,16 +105,17 @@ public class OsamaController : MonoBehaviour
                 transform.localScale = new Vector3(1,1,1);
             }
         }
-        if (shootTime == shootOffset) {
-            shootOffset = Random.Range(190,210);
-            shootTime = 0;
+        if (shootTime == 0) {
+            shootTime = Random.Range(190,210);
+            OsamaSpell1();
+        }
+        if (shootTime == 18) {
             shootx = transform.position[0];
             shooty = transform.position[1];
             OsamaSpell1();
-            Invoke("OsamaSpell1", 0.1f);
-            Invoke("OsamaSpell1", 0.2f);
-            Invoke("OsamaSpell1", 0.3f);
-            Invoke("OsamaSpell1", 0.4f);
+        }
+        if (shootTime == 6 || shootTime == 12) {
+            OsamaSpell1();
         }
         if (transform.position[0] < -9) {
             direction = 0;

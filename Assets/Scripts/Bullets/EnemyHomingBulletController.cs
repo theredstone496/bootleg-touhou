@@ -42,17 +42,17 @@ public class EnemyHomingBulletController : MonoBehaviour
                 float playery = player.transform.position[1];
                 float targetangle = Mathf.Atan2(playery - transform.position[1], playerx - transform.position[0]) * Mathf.Rad2Deg;
                 if (targetangle > angle) {
-                    angle += homingrate * Time.deltaTime;
+                    angle += homingrate * 1f / 60f;
                 }
                 if (targetangle < angle) {
-                    angle -= homingrate * Time.deltaTime;
+                    angle -= homingrate * 1f / 60f;
                 }
             }
-            speed += acceleration * Time.deltaTime;
+            speed += acceleration * 1f / 60f;
             if (speed < 0) {speed = 0;}
             hspeed = speed * Mathf.Cos(angle * Mathf.Deg2Rad);
             vspeed = speed * Mathf.Sin(angle * Mathf.Deg2Rad);
-            transform.localPosition += new Vector3(hspeed, vspeed, 0) * Time.deltaTime;
+            transform.localPosition += new Vector3(hspeed, vspeed, 0) * 1f / 60f;
             transform.localEulerAngles = new Vector3(0, 0, angle - 90);
         }
     }

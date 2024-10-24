@@ -173,7 +173,20 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         //Debug.Log(collider.IsTouchingLayers(Physics2D.AllLayers));
-        body.velocity = new Vector2(speedright - speedleft,speedup - speeddown);
+        //body.velocity = new Vector2(speedright - speedleft,speedup - speeddown);
+        transform.position += new Vector3(speedright - speedleft,speedup - speeddown, 0) * 1f / 60f;
+        if (transform.position.x < -9.577) {
+            transform.position= new Vector3(-9.577f, transform.position.y, 0);
+        }
+        if (transform.position.x > 9.577) {
+            transform.position= new Vector3(9.577f, transform.position.y, 0);
+        }
+        if (transform.position.y < -10.912) {
+            transform.position= new Vector3(transform.position.x, -10.912f, 0);
+        }
+        if (transform.position.y > 10.912) {
+            transform.position= new Vector3(transform.position.x, 10.912f, 0);
+        }
         if (m_Controls.Default.Shoot.ReadValue<float>() == 1 && playerBulletObj != null && lives >= 0) {
             PlayerShoot();
         }
